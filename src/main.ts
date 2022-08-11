@@ -12,7 +12,7 @@ async function bootstrap() {
       whitelist: true,
     }),
   );
-  const port = process.env.API_PORT || 3310;
+  const port = process.env.PORT || 3310;
   await app.listen(port, () => {
     Logger.debug(
       `Listening at http://localhost:${port}`,
