@@ -4,9 +4,9 @@ REST API
 ## Deployed at [heroku](https://mansion-api.herokuapp.com/users)
 
   ### Endpoints:
-    - /register - validate and insert the user details in a database
-    - /users - Get/List all users 
-    -/users/username - checks if user already exist needed to validate field on frontend 
+    - /register {POST}- validate and insert the user details in a database
+    - /users {GET} - Get/List all users 
+    -/users/username {GET} - checks if user already exist needed to validate field on frontend 
 
 ## Requirements
 <h3>Backend REST API</h3>
