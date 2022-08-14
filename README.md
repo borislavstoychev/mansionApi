@@ -1,7 +1,7 @@
 # mansionApi
 REST API
 
-## Deployed at [heroku](https://mansion-api.herokuapp.com/users)
+## Deployed at [heroku](https://mansion-api.herokuapp.com/swagger)
 
   ### Endpoints:
     - /register {POST}- validate and insert the user details in a database
